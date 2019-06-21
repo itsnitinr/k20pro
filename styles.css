@@ -1,0 +1,300 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto;
+}
+
+h5 {
+  padding: 10px;
+}
+
+.navbar {
+  padding: 1.5rem 3rem;
+}
+
+.header {
+  background: url(images/banner.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  height: 600px;
+}
+
+.product-name {
+  font-size: 4.5rem;
+  color: white;
+  padding-top: 5rem;
+  padding-left: 3rem;
+  font-family: Montserrat;
+}
+
+.tagline {
+  font-size: 2rem;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  font-family: Montserrat;
+}
+
+.orange {
+  color: #FF4500;
+}
+
+.buy {
+  margin: 3rem;
+}
+
+.buy:hover {
+  color: #FF4500;
+}
+
+.overview {
+  background-color: #222831;
+  color: white;
+  padding: 3rem;
+  padding-top: 1rem;
+}
+
+.title{
+  font-weight: 900;
+  padding: 3rem;
+  padding-bottom: 0;
+  font-size: 1.75em;
+  text-align: center;
+  color: white;
+}
+
+.title:hover {
+  color: #FF4500;
+  transition: 0.3s;
+}
+
+.desc{
+  padding: 0 3rem;
+  font-size: 0.9em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.line {
+  display: inline-block;
+  width: 2.8125em;
+  height: 8px;
+  background-color: #f4c31b;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.processor {
+  background-image: url(images/processor.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  height: 450px;
+}
+
+.processor-heading {
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 2rem;
+  color: white;
+  padding-left: 50px;
+  padding-top: 100px;
+  font-weight: 600;
+}
+
+.processor-desc {
+  color: #bababa;
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: 1rem;
+}
+
+.display {
+  background-image: url(images/display.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  height: 900px;
+}
+
+.display-heading {
+  color: white;
+  font-family: Montserrat;
+  font-size: 4rem;
+  text-align: center;
+  padding: 7rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+.display-desc {
+  color: #bababa;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0 300px;
+}
+
+.camera-img {
+  background-image: url(images/camera.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+}
+
+.camera {
+  background-color: #222831;
+  padding: 3rem;
+}
+
+.camera-heading {
+  text-align: center;
+  font-size: 3rem;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
+  color: white;
+  font-family: Montserrat;
+}
+
+.camera-desc {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  color: #bababa;
+  margin: 0 200px;
+}
+
+.cam-icon {
+  padding-left: 5rem;
+  padding-top: 4rem;
+}
+
+.icon-desc {
+  color: white;
+  font-size: 1.25em;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.carousel-img {
+  width: 100%;
+  filter: brightness(75%);
+  transition: 0.5s;
+}
+
+.carousel-img:hover {
+  filter: brightness(100%);
+  transition: 0.5s;
+}
+
+.pop-up {
+  background-image: url(images/popup.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
+  padding-bottom: 3rem;
+}
+
+.popup-heading {
+  text-align: left;
+  padding-left: 3rem;
+  padding-top: 13rem;
+  padding-bottom: 3rem;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.popup-desc {
+  margin-right: 50%;
+  padding-left: 3rem;
+  color: #bababa;
+  padding-top: 1.5rem;
+}
+
+.battery {
+  background-image: url(images/battery.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.battery-heading {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: Montserrat;
+  padding-top: 7rem;
+}
+
+.fp {
+  background-image: url(images/fp.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+}
+
+.gallery {
+  background-color: #222831;
+  padding: 3rem;
+}
+
+.gallery-heading {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+.gallery-desc {
+  color: #bababa;
+  padding-top: 1rem;
+  text-align: center;
+  font-family: Montserrat;
+  padding-bottom: 2rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.footer {
+  background-color: #313131;
+  padding: .75rem;
+  text-align: center;
+}
+
+.endgame {
+  color: grey;
+}
